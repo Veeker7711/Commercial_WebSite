@@ -1,0 +1,79 @@
+.naviguation ul li
+{
+    display: inline;
+}
+
+.logo
+{
+    position: fixed;
+}
+
+.naviguation
+{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0px;
+    left: 0px;
+    background-color: #34495e;
+
+}
+
+.naviguation li
+{
+    margin: 5%;
+}
+
+
+a
+{
+    text-decoration:none;
+    color: white;
+}
+
+.naviguation a:hover
+      {
+	  color: #2980b9;
+      }
+
+.naviguation ul
+{
+    margin-left: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body
+{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ecf0f1;
+}
+
+#form_nav
+{
+    float: right;
+    margin-right: 5%;
+}
+
+footer
+{
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: #34495e;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+footer a
+{
+    float: right;
+    margin-right: 3px;
+}
+
+form {
+    display: inline;
+    margin-top: 0em;
+}

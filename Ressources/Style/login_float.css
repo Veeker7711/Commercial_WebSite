@@ -1,0 +1,45 @@
+body
+{
+    background-color: #ecf0f1;
+    margin: 100px;
+}
+
+.identite
+{
+    background-color: white;
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px;
+    z-index:8;
+    border-style: outset;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.identite .titres
+{
+    font-size: 10px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background-color: #e74c3c;
+}
+
+.contenu
+{
+    text-align: center;
+    font-size: 15px
+}
+
+
+.inscription
+{
+    padding-top: 60px;
+}
+

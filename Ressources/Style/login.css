@@ -1,0 +1,34 @@
+body
+{
+    background-color: #ecf0f1;
+    margin: 100px;
+}
+
+.identite
+{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 15px;
+}
+
+.identite .titres
+{
+    font-size: 10px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background-color: #e74c3c;
+}
+
+.contenu
+{
+    text-align: center;
+    font-size: 15px
+}
+
+
+.inscription
+{
+    padding-top: 60px;
+}
